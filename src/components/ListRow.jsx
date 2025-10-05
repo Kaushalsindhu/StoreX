@@ -7,7 +7,7 @@ import updateAccess from "../facilities/updateAccess.js";
 import { moveToBin, permanentlyDeleteFile } from "../facilities/deleteFile.js";
 import restoreFromBin from "../facilities/restore.js";
 import {useRefresh} from '../contexts/RefreshContext.jsx'
-import ShareDialog from "./shareDialog.jsx";
+import ShareDialog from "./ShareDialog.jsx";
 
 function ListRow({ entry, handleClick, formatBytes, isBinView, isSearchView}) {
   const [menuOpen, setMenuOpen] = useState(false);
